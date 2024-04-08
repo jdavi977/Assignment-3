@@ -107,11 +107,48 @@
       margin: auto;
     }
   
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-content: space-between;
+        text-align: left;
+        
+    }
 
+    #education {
+        align-content: start;
+        justify-self: start;
+        grid-column: 1;
+        grid-row: 1;
+    }
 
-    
+    #experience {
+        align-content: start;
+        grid-column: 2;
+        grid-row: 1;
+    }
 
+    #volunteer {
+        align-content: start;
+        grid-column: 1;
+        grid-row: 2;
 
-    
+    }
+
+    #skills {
+        text-align: start;
+        align-content: start;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    section {
+        align-self: start;
+    }
+
+    #contact {
+        text-align: center;
+    }
 
   }
