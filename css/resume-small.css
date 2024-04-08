@@ -37,21 +37,20 @@
     #para-text {
         text-align: center;
     }
-
-    .video-container {
-        text-align: center; /* Center the content horizontally */
-    }
-
-    #video-text {
-        text-align: center;
-    }
     
     /* Style the video */
     .video-container video {
-        max-width: 100%; /* Ensure the video doesn't exceed its container's width */
-        display: inline-block; /* Allow for centering with text-align */
+        max-width: 100%; 
+        display: inline-block; 
     }
     
+    .video-container {
+      text-align: center;
+  }
+
+    #video-text {
+      text-align: center;
+  }
     
       /* Style for unordered lists and its items */
       li,
