@@ -1,0 +1,136 @@
+/* CSS rules for medium screens */
+@media only screen and (max-width: 789.99px) {
+
+    body, h1, h2, p, form, nav {
+        margin: 0;
+        padding: 0;
+      }
+    
+      /* Style the main body section */
+      section {
+        margin: auto;
+        width: 80%;
+        padding-top:30px;
+        align-items: center;
+        align-self: center;
+      }
+  
+      video {
+          padding-bottom: 30px;
+      }
+    
+      /* Apply a background color and set font styles */
+      body {
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+      }
+    
+      /* Style the header section */
+      header {
+        background-color: #fff;
+        color: #000000;
+        padding: 20px;
+        display: block;
+        text-align: center;
+      }
+
+    #para-text {
+        text-align: center;
+    }
+
+    .video-container {
+        text-align: center; /* Center the content horizontally */
+    }
+
+    #video-text {
+        text-align: center;
+    }
+    
+    /* Style the video */
+    .video-container video {
+        max-width: 100%; /* Ensure the video doesn't exceed its container's width */
+        display: inline-block; /* Allow for centering with text-align */
+    }
+    
+    
+      /* Style for unordered lists and its items */
+      li,
+      ul [class="menu"] {
+        margin: 0;
+        padding: 0;
+      }
+    
+      /* Style the navigation menu */
+      nav {
+        background-color: #dbdbdb;
+        padding: 10px;
+        text-align: center;
+      }
+    
+      nav a {
+        color: #9e9e9e;
+        text-decoration: none;
+        margin-right: 15px;
+      }
+    
+      nav a:hover {
+        color: #000000;
+        text-decoration: none;
+        margin-right: 15px;
+      }
+    
+      nav a.selected {
+        color: #000000;
+        text-decoration: none;
+        margin-right: 15px;
+      }
+    
+      table {
+        margin: 0 auto;
+        color: #fff;
+      }
+    
+      p[class="mainMenu"] {
+        margin-left: 10px;
+        margin-right: 0px;
+      }
+    
+      /* Style the main content section */
+  
+      .learnBtn {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    
+      .learnBtn:hover {
+        background-color: #555;
+      }
+  
+      footer {
+        background-color: #fff;
+        color: #000000;
+        text-align: center;
+        padding: 1px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+  
+    
+      body {
+        max-width: 790px;
+        margin: auto;
+      }
+    
+  
+  
+      
+  
+  
+      
+  
+    }
